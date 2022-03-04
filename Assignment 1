@@ -1,0 +1,24 @@
+l=[]
+n=int(input('enter number')) 
+for i in range (n):
+     x=int(input ())
+     l.append(x)
+Print(l)
+Count=0
+l1=[]
+for i in range (n):
+    if i not in l: 
+       Count=count+1
+Print (count)
+
+
+
+Output:
+Enter number:5
+1
+2
+3
+2
+1
+[1,2,3,2,1]
+2
